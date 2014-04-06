@@ -1,0 +1,38 @@
+body {
+	font-family:verdana, arial, sans-serif; font-size:100%;
+}
+* {
+ margin: 0;
+ padding: 0; 
+}
+.container {
+ background: #e1e8ed;
+ border-top:1px solid #ccd6dd;
+ border-bottom:1px solid #ccd6dd;
+ width: 630px;
+}
+.container img {
+ width: 100px;
+ margin: 10px 10px;
+ float: left;
+}
+#content {
+ float: left;
+ margin: 10px 10px 10px 0px;
+ width: 500px;
+}
+#account-name {
+ float: left;
+ font-weight: bold;
+}
+#when-tweeted {
+ float: right;
+}
+.description, .clear {
+ clear: both;
+}
+.bar {
+	background: #e1e8ed;
+	height: 10px;
+	width: 630px;
+}
